@@ -2,11 +2,8 @@ import React, { useState } from 'react'
 import Footer from './Footer'
 import style from './Login.module.css'
 import { AiOutlineTwitter } from 'react-icons/ai'
-import { FaApple } from 'react-icons/fa'
-import { FcGoogle } from 'react-icons/fc'
-import { Link, Redirect } from 'react-router-dom'
-import { Button } from 'react-bootstrap'
-import Login from './Login'
+
+import { Link } from 'react-router-dom'
 
 const Register = () => {
   const [firstname, setName] = useState('')
@@ -22,16 +19,17 @@ const Register = () => {
       email: email,
       password: password
     }
-    console.log(userRegisterdata)
 
     if (
-      userRegisterdata.setName !== '' &&
-      userRegisterdata.setlastName !== '' &&
-      userRegisterdata.setemail !== '' &&
-      userRegisterdata.setpassword !== ''
+      userRegisterdata.firstname !== '' &&
+      userRegisterdata.lastname !== '' &&
+      userRegisterdata.email !== '' &&
+      userRegisterdata.password !== ''
     ) {
       setIsRegister(true)
       localStorage.setItem('isregister', JSON.stringify(isregister))
+    } else {
+      alert('fill all information')
     }
 
     setemail('')
@@ -39,6 +37,7 @@ const Register = () => {
     setlastName('')
     setpassword('')
   }
+ 
 
   return (
     <div>
@@ -100,9 +99,7 @@ const Register = () => {
               </p>
               <p className={style.plink} style={{ marginTop: '15px' }}>
                 Already have an account?{' '}
-                <Link to='/login' className={style.linktonext}>
-                  Log in
-                </Link>{' '}
+                <Link className={style.linktonext}>Log in</Link>{' '}
               </p>
             </div>
           </div>
