@@ -1,0 +1,67 @@
+
+.signup {
+    display: flex;
+
+}
+
+.mainDiv {
+    width: 55%;
+    height: 95vh;
+    
+    background-image: URL('https://i.ibb.co/dpznNF6/bg.png');
+    display: grid;
+    place-items: center;
+}
+
+.h1 {
+    color: greenyellow;
+}
+
+.secDiv {
+    padding: 30px;
+}
+.inputdiv{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.a{
+    color: black;
+    display: flex;
+    padding-left: 15px;
+    align-items: center;
+}
+.plink{
+    display: flex;
+
+}
+
+.linktonext{
+    margin: 0;
+    padding: 0;
+    color: #1B95E0;
+    margin-left: 5px;
+}
+.inputfiled:hover{
+    border: 1px solid #1B95E0;
+}
+.inputfiled{
+    height: 25px;
+    width:20vw;
+    border-radius: 50px;
+    padding: 8px;
+    font-size: 18px;
+    margin-top: 10px;
+    border: 1px solid grey;
+}
+.Register{
+    height: 45px;
+    width:21vw;
+    border-radius: 50px;
+    padding: 8px;
+    font-size: 18px;
+    margin-top: 10px;
+    background-color: #1B95E0;
+    border: 1px solid #1B95E0;
+}

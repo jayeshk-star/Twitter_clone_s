@@ -1,0 +1,12 @@
+.footer .nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+  }
+  
+  .footer .nav ul li {
+    margin-right: 15px;
+    color: #aab8c2;
+    font-size: 12px;
+  }
