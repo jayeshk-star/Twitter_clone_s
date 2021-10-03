@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/twitter_clone_s/static/css/main.17224c37.chunk.css",
+    "main.js": "/twitter_clone_s/static/js/main.00e0237a.chunk.js",
+    "main.js.map": "/twitter_clone_s/static/js/main.00e0237a.chunk.js.map",
+    "runtime-main.js": "/twitter_clone_s/static/js/runtime-main.526c92b9.js",
+    "runtime-main.js.map": "/twitter_clone_s/static/js/runtime-main.526c92b9.js.map",
+    "static/js/2.88ebec60.chunk.js": "/twitter_clone_s/static/js/2.88ebec60.chunk.js",
+    "static/js/2.88ebec60.chunk.js.map": "/twitter_clone_s/static/js/2.88ebec60.chunk.js.map",
+    "static/js/3.c6e5c140.chunk.js": "/twitter_clone_s/static/js/3.c6e5c140.chunk.js",
+    "static/js/3.c6e5c140.chunk.js.map": "/twitter_clone_s/static/js/3.c6e5c140.chunk.js.map",
+    "index.html": "/twitter_clone_s/index.html",
+    "static/css/main.17224c37.chunk.css.map": "/twitter_clone_s/static/css/main.17224c37.chunk.css.map",
+    "static/js/2.88ebec60.chunk.js.LICENSE.txt": "/twitter_clone_s/static/js/2.88ebec60.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/twitter_clone_s/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.526c92b9.js",
+    "static/js/2.88ebec60.chunk.js",
+    "static/css/main.17224c37.chunk.css",
+    "static/js/main.00e0237a.chunk.js"
+  ]
+}
